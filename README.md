@@ -23,6 +23,12 @@ Downloads use HTTPS, and RPM signature checks remain enabled.
 
 ## Install
 
+For a one-line installation on an Internet-connected openEuler host:
+
+```sh
+curl -fsSL https://github.com/itinfra7/zerotier-openeuler/releases/latest/download/zerotier-install-openeuler.sh | sudo bash
+```
+
 ```sh
 sudo dnf install -y curl python3-dnf tar util-linux
 sudo bash ./zerotier-install-openeuler.sh
