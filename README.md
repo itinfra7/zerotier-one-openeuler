@@ -30,11 +30,17 @@ curl -fsSL https://github.com/itinfra7/zerotier-openeuler/releases/latest/downlo
 ```
 
 ```sh
-sudo dnf install -y curl python3-dnf tar util-linux
-sudo bash ./zerotier-install-openeuler.sh
+curl -fsSL https://github.com/itinfra7/zerotier-openeuler/releases/latest/download/zerotier-install-openeuler.sh | sudo bash
 ```
 
 The installer enables and starts `zerotier-one.service`. Network membership is managed separately.
+
+To run a checked-out copy instead, install its prerequisites and execute it as two separate commands:
+
+```sh
+sudo dnf install -y curl python3-dnf tar util-linux
+sudo bash ./zerotier-install-openeuler.sh
+```
 
 To select an EL repository explicitly:
 
