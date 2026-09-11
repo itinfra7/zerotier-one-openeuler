@@ -29,10 +29,6 @@ For a one-line installation on an Internet-connected openEuler host:
 curl -fsSL https://github.com/itinfra7/zerotier-openeuler/releases/latest/download/zerotier-install-openeuler.sh | sudo bash
 ```
 
-```sh
-curl -fsSL https://github.com/itinfra7/zerotier-openeuler/releases/latest/download/zerotier-install-openeuler.sh | sudo bash
-```
-
 The installer enables and starts `zerotier-one.service`. Network membership is managed separately.
 
 To run a checked-out copy instead, install its prerequisites and execute it as two separate commands:
