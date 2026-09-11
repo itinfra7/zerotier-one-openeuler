@@ -1,4 +1,4 @@
-# zerotier-openeuler
+# zerotier-one-openeuler
 
 ZeroTier One installation and upgrade support for openEuler.
 
